@@ -12,6 +12,12 @@ interface Blog {
 }
 
 const blogs: Blog[] = [
+   {
+    slug: 'owasp-kubernetes-top-10-2025',
+    title: 'Kubernetes Top 10 Zafiyetleri',
+    excerpt: 'Hem kubernetes güvenliğini öğrenebileceğiniz hem de size el defteri olabilecek bir rehber.',
+    author: 'Hiranur Gemalmaz',
+  },
   {
     slug: 'akilli-supurge-hack',
     title: 'Akıllı Süpürgeniz Hacklenebilir mi?',
